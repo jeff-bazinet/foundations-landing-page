@@ -1,0 +1,31 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.hero,
+.footer {
+  background-color: #1f2937;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.header ul {
+  list-style-type: none;
+}
+.header a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+.hero p, img{
+  font-size: 18px;
+  color: #e5e7eb;
+}
