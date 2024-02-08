@@ -1,5 +1,22 @@
 body {
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.header ul{
+    display: flex;
+    
+}
+
+.header ul li{
+    padding: 0 10px;
 }
 
 .header,
