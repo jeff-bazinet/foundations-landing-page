@@ -37,12 +37,16 @@ body {
   font-size: 48px;
   font-weight: bolder;
   color: #f9faf8;
+  margin-bottom: 0;
 }
 
 .hero p,
 img {
   font-size: 18px;
   color: #e5e7eb;
+}
+.hero-left {
+  padding: 20px 0;
 }
 
 .content-1 h2 {
@@ -51,6 +55,19 @@ img {
   color: #1f2937;
 }
 
+.content-1 {
+  background-color: #fff;
+}
+.content-1 img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.content-1-img{
+  text-align: center;
+  padding: 0 10px;
+}
 .content-2 {
   background-color: #e5e7eb;
 }
@@ -81,10 +98,10 @@ body {
 .call-to-action,
 .footer */
 
-.container{
-    display: flex;
-    flex-direction: column;
-    padding: 0 100px;
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
 }
 .header {
   display: flex;
@@ -108,22 +125,17 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 50px;
 }
-.hero-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-/* .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    padding: 10px 20px;
-} */
-
-/* .hero {
-    display: flex;
-    flex-wrap: wrap;
-} */
+.content-1 {
+  display: flex;
+  flex-direction: column;
+}
+.content-1-images {
+  display: flex;
+  justify-content: center;
+}
