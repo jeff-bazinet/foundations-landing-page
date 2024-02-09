@@ -100,12 +100,7 @@ img {
   font-weight: bold;
 }
 
-.call-to-action {
-  background-color: white;
-  border: 1px solid red;
-}
-
-.call-to-action 
+.call-to-action, 
 button {
   background-color: #3882f6;
 }
@@ -171,9 +166,13 @@ body {
   flex-direction: column;
   align-items: flex-end;
 }
-
-.call-to-action-container {
+.call-to-action-container{
+  background-color: white;
+}
+.call-to-action {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 50px;
+  color: white;
 }
