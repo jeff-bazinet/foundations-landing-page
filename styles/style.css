@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #000; */
+}
+
+.hero, .footer, .nav {
+    background-color: #1F2937;
+}
+
+/* Navigation Bar */
+.nav{
+display: flex;
+justify-content: space-between;
+width: 1000px;
+}
+.nav-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.nav-links a{
+    text-decoration: none;
+}
+
+/* Hero */
+.hero{
+    display: flex;
+    width: 1000px;
+}
+.hero-left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+.hero-left p, .header a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.hero-right p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    background-color: #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937
+}
