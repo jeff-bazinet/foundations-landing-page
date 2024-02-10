@@ -87,7 +87,13 @@ padding: 10px 20px 50px 20px;
 }
 
 /* Random */
-
+.random-images{
+    display: flex;
+    width: 800px;
+}
+.random h2{
+    text-align: center;
+}
 /* Call to Action */
 
 .call-to-action {
