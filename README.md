@@ -1,6 +1,6 @@
 # foundations-landing-page
 
-# Image Credit - Unsplash
+# Image Credit - All Images From Unsplash
 # kenny-eliason-iAftdIcgpFc-unsplash
 # orva-studio-YC8qqp50BdA-unsplash
 # paolo-nicolello-2gOxKj594nM-unsplash
