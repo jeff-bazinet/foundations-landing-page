@@ -25,10 +25,10 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 20px 20px 50px 20px;
+  padding: 10px 20px 50px 20px;
 }
 .nav-logo {
-  font-size: 24px;
+  font-size: 20px;
   color: #f9faf8;
   width: 400px;
 }
@@ -50,7 +50,7 @@ body {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding: 0px 0px 50px 0px;
+  padding: 0px 0px 40px 0px;
 }
 .hero-left {
   display: flex;
@@ -59,7 +59,7 @@ body {
   justify-content: center;
   gap: 10px;
   width: 450px;
-  padding: 0px 20px;
+  padding: 0px 20px 0px 0px;
 }
 .hero-left h1 {
   font-size: 48px;
@@ -96,7 +96,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-  padding: 20px 0;
+    padding: 20px 0;
 }
 .random h2 {
   padding-bottom: 20px;
@@ -107,6 +107,13 @@ body {
   text-align: center;
   font-weight: 300;
   gap: 20px;
+
+}
+.random-image img{
+  max-width: 100%;
+  height: auto;
+  border: 1px solid blue;
+  border-radius: 5px;
 }
 .random h2 {
   text-align: center;
@@ -129,7 +136,7 @@ color: #1f2937;
 }
 .quote p{
     width: 600px;
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     font-weight: light;
     color: #1F2937;
@@ -139,18 +146,39 @@ color: #1f2937;
     font-weight: 500;
 }
 
-/* Call to Action */
 
+/* Call to Action */
+.call-to-action-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 75px 0;
+}
 .call-to-action {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 50px;
-}
-.call-to-action-left, .call-to-action-right{
   background-color: #3882f6;
+  border-radius: 10px;
+  width: 800px;
+  height: 125px;
 }
 .call-to-action-left{
-    background-color: #3882f6;
-    padding: 50px;
+    color: white;
+    padding: 0 75px;
+    border-radius: 10px;
+}
+.call-to-action-left p{
+  font-weight: 300;
+}
+.call-to-action-right{
+padding: 0 50px;
+}
+.call-to-action-right button{
+  border: 1px solid white;
+  background: #3882f6;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 15px;
 }
