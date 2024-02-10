@@ -19,16 +19,23 @@ body{
 /* Navigation Bar */
 .nav{
 display: flex;
-justify-content: space-between;
+justify-content: center;
+align-items: center;
 width: 1000px;
-padding: 10px;
+padding: 10px 20px 50px 20px;
 }
 .nav-logo{
     font-size: 24px;
     color: #F9FAF8;
+    width: 400px;
 }
 .nav-links {
     list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-weight: 300;
+    width: 400px;
 }
 .nav-links a{
     text-decoration: none;
@@ -39,6 +46,17 @@ padding: 10px;
 .hero{
     display: flex;
     width: 1000px;
+    justify-content: center;
+    padding: 0px 0px 50px 0px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 400px;
+    padding: 0px 20px;
 }
 .hero-left h1{
     font-size: 48px;
@@ -49,10 +67,26 @@ padding: 10px;
     font-size: 18px;
     color: #E5E7EB;
 }
+.hero-left button{
+    background: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px 15px;
+}
+.hero-right{
+    width: 400px;
+    /* padding: 50px; */
+}
 .hero-right p{
     font-size: 18px;
     color: #E5E7EB;
 }
+.hero-img{
+    width: 100%;
+}
+
+/* Random */
 
 /* Call to Action */
 
